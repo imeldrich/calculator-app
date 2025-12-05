@@ -1,60 +1,67 @@
-let inputField = document.getElementById("input");
+const inputField = document.getElementById("input");
 
 function one() {
-    inputField.innerText += 1;
+    inputField.value += 1;
 }
 function two() {
-    inputField.innerText += 2;
+    inputField.value += 2;
 }
 function three() {
-    inputField.innerText += 3;
+    inputField.value += 3;
 }
 function four() {
-    inputField.innerText += 4;
+    inputField.value += 4;
 }
 function five() {
-    inputField.innerText += 5;
+    inputField.value += 5;
 }
 function six() {
-    inputField.innerText += 6;
+    inputField.value += 6;
 }
 function seven() {
-    inputField.innerText += 7;
+    inputField.value += 7;
 }
 function eight() {
-    inputField.innerText += 8;
+    inputField.value += 8;
 }
 function nine() {
-    inputField.innerText += 9;
+    inputField.value += 9;
 }
 function zero() {
-    inputField.innerText += 0;
+    inputField.value += 0;
 }
 function point() {
-    inputField.innerText += ".";
+    inputField.value += ".";
 }
 
 
 // operators
 function add() {
-    inputField.innerText += "+";
+    inputField.value += "+";
 }
 function subtract() {
-    inputField.innerText += "-";
+    inputField.value += "-";
 }
 function multiply() {
-    inputField.innerText += "*";
+    inputField.value += "*";
 }
 function divide() {
-    inputField.innerText += "/";
+    inputField.value += "/";
 }
 
 // delete function
 function clearInput() {
-    inputField.innerText = null;
+    inputField.value = null;
 }
 
 // calculate function
 function calculate() {
-    inputField.innerText = eval(inputField.innerText);
+    inputField.value = eval(inputField.value);
+}
+
+// input validation
+function validateInput() {
+    if (inputField.value.match(/[^0-9+\-*/.]/g)) {
+        inputField.value = inputField.value.replace(/[^0-9+\-*/.]/g, '');
+    }
 }

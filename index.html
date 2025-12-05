@@ -13,8 +13,8 @@
 <body>
     <div class="container">
         <h1>CALCULATOR</h1>
-        <div id="input"></div>
-        <button id="delete-btn" onclick="clearInput()">DELETE</button>
+        <input type="text" id="input" oninput="validateInput()">
+        <button id="clear-btn" onclick="clearInput()">C</button>
         
         <div class="btn-container">
             <div>

@@ -10,6 +10,8 @@ body{
     margin: 35px auto;
     padding: 30px;
     border-radius: 20px;
+    border: 2px solid #03045e;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .btn-container{
@@ -27,31 +29,33 @@ button {
     margin: 15px 20px;
     border: 3px solid black;
     border-radius: 10px;
+    background-color: #6c757d;
+    color: white;
+    font-weight: bold;
 }
 
 #input {
-    background-color: white;
-    margin: auto;
     font-size: 40px;
     width: 70%;
-    height: 40px;
+    height: auto;
     text-align: left;
     border: 3px solid black;
-    padding: 0 0 5px 5px;
+    padding-left: 10px;
     border-radius: 10px;
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 40px;
     color: #03045e;
     font-weight: bold;
 }
 
-#delete-btn {
-    background-color: #d00000;
-    width: 150px;
-    height: 50px;
-    font-size: 20px;
-    padding: 10px;
-    margin: 25px;
+#clear-btn {
+    background-color: #6c757d;
+    width: 100px;
+    height: auto;
+    padding: 15px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
 }
