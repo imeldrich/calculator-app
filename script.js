@@ -61,7 +61,5 @@ function calculate() {
 
 // input validation
 function validateInput() {
-    if (inputField.value.match(/[^0-9+\-*/.]/g)) {
-        inputField.value = inputField.value.replace(/[^0-9+\-*/.]/g, '');
-    }
+    inputField.value = inputField.value.replace(/[^0-9+\-*/.]/g, '');
 }
