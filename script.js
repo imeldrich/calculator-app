@@ -1,52 +1,52 @@
 let inputField = document.getElementById("input");
 
 function one() {
-    inputField.innerText += document.getElementById("input").innerText = 1;
+    inputField.innerText += 1;
 }
 function two() {
-    inputField.innerText += document.getElementById("input").innerText = 2;
+    inputField.innerText += 2;
 }
 function three() {
-    inputField.innerText += document.getElementById("input").innerText = 3;
+    inputField.innerText += 3;
 }
 function four() {
-    inputField.innerText += document.getElementById("input").innerText = 4;
+    inputField.innerText += 4;
 }
 function five() {
-    inputField.innerText += document.getElementById("input").innerText = 5;
+    inputField.innerText += 5;
 }
 function six() {
-    inputField.innerText += document.getElementById("input").innerText = 6;
+    inputField.innerText += 6;
 }
 function seven() {
-    inputField.innerText += document.getElementById("input").innerText = 7;
+    inputField.innerText += 7;
 }
 function eight() {
-    inputField.innerText += document.getElementById("input").innerText = 8;
+    inputField.innerText += 8;
 }
 function nine() {
-    inputField.innerText += document.getElementById("input").innerText = 9;
+    inputField.innerText += 9;
 }
 function zero() {
-    inputField.innerText += document.getElementById("input").innerText = 0;
+    inputField.innerText += 0;
 }
 function point() {
-    inputField.innerText += document.getElementById("input").innerText = ".";
+    inputField.innerText += ".";
 }
 
 
 // operators
 function add() {
-    inputField.innerText += document.getElementById("input").innerText = "+";
+    inputField.innerText += "+";
 }
 function subtract() {
-    inputField.innerText += document.getElementById("input").innerText = "-";
+    inputField.innerText += "-";
 }
 function multiply() {
-    inputField.innerText += document.getElementById("input").innerText = "*";
+    inputField.innerText += "*";
 }
 function divide() {
-    inputField.innerText += document.getElementById("input").innerText = "/";
+    inputField.innerText += "/";
 }
 
 // delete function
